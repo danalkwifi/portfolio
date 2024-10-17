@@ -5,7 +5,7 @@ import { SiMongodb } from "react-icons/si"
 export const Technologies = () => {
   return (
     <div className="pb-24">
-        <h2 className="my-20 text-center text-4xl text-purple-900">Technologies</h2>
+        <h2 className="my-20 text-center text-4xl text-purple-700">Technologies</h2>
         <div className="flex flex-wrap items-center justify-center gap-4">
             <div>
                 <RiReactjsLine className="text-7xl text-cyan-400" />
