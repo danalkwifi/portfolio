@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
             <div className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
-                    <h2 className="pb-3 text-4xl tracking-tighter lg:text-8xl text-purple-900">Dana Al-Kwifi</h2>
+                    <h2 className="pt-6 pb-3 text-5xl tracking-tighter lg:text-8xl text-purple-900">Dana Al-Kwifi</h2>
                     <span className="bg-gradient-to-r from-purple-700 to-purple-500 bg-clip-text text-3xl tracking-tighter text-transparent">
                         Web Developer
                     </span>
