@@ -29,15 +29,7 @@ export const Navbar = () => {
         >
           <FaGithub />
         </a>
-        <a
-          href="https://www.instagram.com/your_instagram_handle/"
-          target="_blank"
-          rel="noopener noreferrer" 
-          aria-label="Instagram"
-          className="text-gray-600 hover:text-gray-500"
-        >
-          <FaInstagram />
-        </a>
+        
       </div>
     </nav>
   );

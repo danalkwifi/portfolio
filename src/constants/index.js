@@ -3,74 +3,63 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate software engineer with a talent for developing efficient and scalable solutions. With hands-on experience in DevOps, web development, and enterprise architecture, I have honed my skills in front-end technologies like React, back-end technologies like Node.js and MongoDB, and cloud platforms like AWS. My goal is to leverage my expertise in technologies such as Docker, CI/CD pipelines, and Linux server management to drive innovation, optimize processes, and deliver impactful user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2023 - Aug. 2023",
+    role: "Associate Enterprise Architecture Office Analyst",
+    company: "Sun Life Financial",
+    description: ` Optimized organizational efficiency by consolidating technical documents into Confluence and implemented an enterprise architecture framework to align technology solutions with business objectives. Conducted architecture reviews to ensure compliance with industry standards and presented recommendations that gained strong stakeholder approval.`,
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Sep. 2022 - Apr. 2023",
+    role: "Software DevOps Intern",
+    company: "CGI",
+    description: `Maintained server uptime by implementing robust monitoring systems using Grafana, ensuring seamless services for end-users. Contributed to the design and implementation of CI/CD pipelines with Jenkins and GitLab to streamline software delivery. Additionally, collaborated with cross-functional teams to resolve deployment challenges and improve overall processes.`,
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "May 2020- Aug. 2022",
+    role: "Web Developer Intern",
+    company: "Pathfinders Christian Fellowships",
+    description: `Improved website functionality by troubleshooting development issues and enhancing SEO strategies. Managed content updates using WordPress to optimize site usability and streamline workflows, contributing to a more engaging user experience.`,
   },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "BankerBot",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Creating a practical chatbot, that can help your imaginary bank’s customers check their account balance and transfer money between accounts.",
+    technologies: ["CloudFormation", "AWS Lambda", "Amazon Lex"],
   },
   {
-    title: "Task Management App",
+    title: "Twitter-Clone",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application offering user intractions like posting, commenting, liking, profile customization, image uploads via Cloudinary, notifications, and seamless deployment.", 
+    technologies: ["React.js", "MongoDB", "Node.js", "Express", "Tailwind"],
   },
   {
-    title: "Portfolio Website",
+    title: "Resubot",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A resume and cover letter builder integrated with AWS and OpenAI, streamlining the document creation process.",
+    technologies: ["React", "SCSS", "MySQL", "AWS"],
   },
   {
     title: "Blogging Platform",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["Vite", "React", "Tailwind", "Express", "Node.js", "MonogDB"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+1 226-224-0410",
+  email: "danalkwifi@gmail.com",
 };

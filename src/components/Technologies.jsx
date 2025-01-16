@@ -1,4 +1,4 @@
-import { FaJava, FaJsSquare, FaNodeJs } from "react-icons/fa"
+import { FaJava, FaJsSquare, FaNodeJs, FaAmazon } from "react-icons/fa"
 import { RiReactjsLine } from "react-icons/ri"
 import { SiMongodb } from "react-icons/si"
 import { animate, inertia, motion } from "framer-motion"
@@ -62,6 +62,13 @@ export const Technologies = () => {
                 variants={iconVariations(4)}
                 className="p-4">
                 <FaJava  className="text-7xl text-red-500" />
+            </motion.div>
+            <motion.div
+                initial="initial"
+                animate="animate"
+                variants={iconVariations(4)}
+                className="p-4">
+                <FaAmazon className="text-7xl text-blue-600" />
             </motion.div>
         </motion.div>
     </div>
